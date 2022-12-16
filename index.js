@@ -13,7 +13,7 @@ function renderBooks(books) {
     h2.innerHTML = book.name;
     main.appendChild(h2);
   });
-  return books;
+ 
 }
 
 document.addEventListener('DOMContentLoaded', function() {
